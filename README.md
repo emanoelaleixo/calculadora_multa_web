@@ -26,4 +26,3 @@ Uma aplicação web feita com HTML, CSS e JavaScript que permite calcular uma mu
 ## 📝 Licença
 
 Este projeto é de uso pessoal e educativo. Sinta-se livre para adaptar conforme suas necessidades.
-
