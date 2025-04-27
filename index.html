@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Cancelamento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/calculator-icon_34473.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <h1>Multa de Cancelamento</h1>
+
+        <div class="form-group">
+            <label for="valorUnitario">Valor de Boleto(R$):</label>
+            <input type="text" id="valorUnitario" placeholder="0,00">
+        </div>
+
+        <div class="form-group">
+            <label for="quantidade">Qt. de Boletos Restantes:</label>
+            <input type="number" id="quantidade" placeholder="0">
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="calcular">Calcular</button>
+            <button class="btn" id="limpar">Limpar</button>
+        </div>
+
+        <div class="resultado">
+            <span>Valor de Multa:</span>
+            <strong id="resultado"></strong>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Copyright&copy 2025 Aleixo&Santos</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
