@@ -26,7 +26,7 @@ h1 {
     font-size: 1.8rem;
 }
 
-.form-group {
+.form-grupo {
     margin-bottom: 1.5rem;
     text-align: left;
 }
@@ -48,7 +48,7 @@ input[type="number"] {
     box-sizing: border-box;
 }
 
-.buttons {
+.botoes {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
